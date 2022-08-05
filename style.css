@@ -96,6 +96,7 @@ h1, .cont2_img, h2, .capt, .nav2, #name {
             padding-bottom: 30px;
 }
 
+    
         .bride1 {
             width: 150px;
             float: left;
@@ -175,6 +176,25 @@ h1, .cont2_img, h2, .capt, .nav2, #name {
             color: #8b2234;
             list-style-type: none;
 }
+
+.images{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.imgone, .imgtwo, .imgthree, .imgfour, .imgfive, .imgsix, .imgseven, .imgeight, .imgnine, .imgten, .imgeleven, .imgtwelve  {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 50px;
+    border: 10px solid #927515;
+    border-radius: 25px;
+    
+}
+
 
 
 
