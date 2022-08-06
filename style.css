@@ -1,200 +1,216 @@
+
+
+
 * {
     margin: 0%;
 }
+
 body {
     background-color: rgb(216, 194, 152);
-    font-family: indie flower, Arial, Helvetica, sans-serif;
-}   
-
-h1, .cont2_img, h2, .capt, .nav2, #name {
-    font-family: Samarkan, Arial, Helvetica, sans-serif;
+    font-family: bits indian calligra;
 }
 
-    header {
-        display: inline-flex;
-        justify-content: flex-start;
-        width: 100%;
-        position:relative;
+h1,
+.cont2_img,
+h2,
+.capt,
+.nav2,
+#name {
+    font-family: Samarkan, Bitsindian;
 }
 
-        .cont1 {
-            background-color: #88b999;
-            width: 25%;
-            height: 150px;
-            border: dotted 5px #927515;
-            border-right: hidden;
-            position: absolute;
-            top: 0%;
-            left: 0%;
-}   
-
-        .imgheader {
-            width: 75%;
-            display: block;
-            margin: auto;
-            object-fit: cover;
-            position: relative;
-            border-radius: 100%;
-            border: solid 5px #927515;  
-            box-shadow: -10px -10px 5px rgb(87, 81, 81);
-            z-index: 1;
+header {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
 }
 
-        .cont2 { 
-            background-color: #d4a7af;
-            width: 75%;
-            height: 150px;
-            border: dotted 5px #927515;
-            position: absolute;
-            top: 0%;
-            right: 0%;
+.cont1 {
+    background-color: #88b999;
+    width: 25%;
+    height: 150px;
+    border: dotted 5px #927515;
+    border-right: hidden;
+    position: absolute;
+    top: 0%;
+    left: 0%;
 }
 
-        h1 {
-            /* border-bottom:#927515 10px double; */
-            text-decoration:double underline;
-            color: #927515;
-            text-align: center;
-            font-size: 5rem;
-            margin-top: 25px;
-}
-        
-        .cont2_img{
-            background-image: url(images/bortegoldtrsca.png);
-            background-repeat: repeat-x;
-            width: 100%;
-            height: 70px;
-            position: sticky;
-            top: 0%;
-            padding-top: 90px;
-            margin-top: 160px;
-            background-color: rgb(216, 194, 152);
-            font-size: 50px;
-            text-align: center;
-            color: #927515;
+.imgheader {
+    width: 75%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    position: relative;
+    border-radius: 100%;
+    border: solid 5px #927515;
+    box-shadow: -10px -10px 5px rgb(87, 81, 81);
+    z-index: 1;
 }
 
-            a:link, a:visited, a:active {
-                color: #8b2234;
+.cont2 {
+    background-color: #d4a7af;
+    width: 75%;
+    height: 150px;
+    border: dotted 5px #927515;
+    position: absolute;
+    top: 0%;
+    right: 0%;
 }
 
-            a:link {
-                text-decoration: none;
+h1 {
+    /* border-bottom:#927515 10px double; */
+    text-decoration: double underline;
+    color: #927515;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 25px;
 }
 
-            a:hover {
-                text-decoration: underline;
+.cont2_img {
+    background-image: url(images/bortegoldtrsca.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0%;
+    padding-top: 90px;
+    margin-top: 160px;
+    background-color: rgb(216, 194, 152);
+    font-size: 50px;
+    text-align: center;
+    color: #927515;
 }
 
-    main {
-        padding: 75px 30px 100px 30px;
-        color: rgb(16, 83, 21);
+a:link,
+a:visited,
+a:active {
+    color: #8b2234;
 }
 
-        h2 { 
-            font-size: 50px;
-            padding-bottom: 30px;
+a:link {
+    text-decoration: none;
 }
 
-    
-        .bride1 {
-            width: 150px;
-            float: left;
-            margin-right: 20px;
-            border: #927515 5px solid;
-            box-shadow: -10px -10px 5px rgb(87, 81, 81);
+a:hover {
+    text-decoration: underline;
 }
 
-        .bride2 {
-            width: 250px;
-            float: right;
-            border: #927515 5px solid;
-            margin-right: 15px;
-            box-shadow: -10px -10px 5px rgb(87, 81, 81);
+main {
+    padding: 75px 30px 100px 30px;
+    color: rgb(16, 83, 21);
 }
 
-        .bride3 {
-            width: 28%;
-            margin-right: 28px;
-            margin-left: 28px;
-            border: #927515 5px solid;
-            border-radius: 50%;
+h2 {
+    font-size: 50px;
+    padding-bottom: 30px;
 }
 
-        .bride4 {
-            width: 170px;
-            display: inline-block;
-            border: #927515 10px solid;
-            border-style: double;
-            padding: 38px;
-            margin: 38px;
+.bride1 {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    border: #927515 5px solid;
+    box-shadow: -10px -10px 5px rgb(87, 81, 81);
 }
 
-        p { 
-            font-size: 20px;
-            /* font-family: indie flower, Arial, Helvetica, sans-serif; */
-            font-weight: bolder;
-            margin-right: 50px;
+.bride2 {
+    width: 250px;
+    float: right;
+    border: #927515 5px solid;
+    margin-right: 15px;
+    box-shadow: -10px -10px 5px rgb(87, 81, 81);
 }
 
-        .tabelle {
-            text-align: center;
-            margin-left: 35%;
+.bride3 {
+    width: 28%;
+    margin-right: 28px;
+    margin-left: 28px;
+    border: #927515 5px solid;
+    border-radius: 50%;
 }
 
-            .capt {
-                font-size: 50px;
-                color: #8b2234;
-}
-        
-            table, th, td {
-               border: 2px;
-               border-style: solid;
-               font-weight: bold;
-               font-size: 20px;    
+.bride4 {
+    width: 170px;
+    display: inline-block;
+    border: #927515 10px solid;
+    border-style: double;
+    padding: 38px;
+    margin: 38px;
 }
 
-        .footborder { 
-            background-image: url(images/bortegoldtrsca.png);
-            background-repeat: repeat-x;
-            width: 100%;
-            height: 100px;
-            position:relative;
+p {
+    font-size: 20px;
+    /* font-family: indie flower, Arial, Helvetica, sans-serif; */
+    font-weight: bolder;
+    margin-right: 50px;
 }
 
-    footer {
-        text-align: center;
-        margin-bottom: 50px;
-        background-color: rgb(216, 194, 152);
-        font-size: 20px;
-        color: #927515;
-        list-style-type: none;
-}
-            
-            #name {
-            font-size: 50px;
-            color: #8b2234;
-            list-style-type: none;
+.tabelle {
+    text-align: center;
+    margin-left: 35%;
 }
 
-.images{
-   
+.capt {
+    font-size: 50px;
+    color: #8b2234;
+}
+
+table,
+th,
+td {
+    border: 2px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footborder {
+    background-image: url(images/bortegoldtrsca.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgb(216, 194, 152);
+    font-size: 20px;
+    color: #927515;
+    list-style-type: none;
+}
+
+#name {
+    font-size: 50px;
+    color: #8b2234;
+    list-style-type: none;
+}
+
+.images {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 
-.imgone, .imgtwo, .imgthree, .imgfour, .imgfive, .imgsix, .imgseven, .imgeight, .imgnine, .imgten, .imgeleven, .imgtwelve  {
+.imgone,
+.imgtwo,
+.imgthree,
+.imgfour,
+.imgfive,
+.imgsix,
+.imgseven,
+.imgeight,
+.imgnine,
+.imgten,
+.imgeleven,
+.imgtwelve {
     width: 500px;
     height: 400px;
     object-fit: cover;
     margin-top: 50px;
     border: 10px solid #927515;
     border-radius: 25px;
-    
 }
-
-
-
-
