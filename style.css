@@ -1,23 +1,20 @@
-
-
-
 * {
     margin: 0%;
 }
 
 body {
     background-color: rgb(216, 194, 152);
-    font-family: bits indian calligra, Samarkan;
+    font-family: Samarkan;
 }
 
-h1,
+/* h1,
 .cont2_img,
 h2,
 .capt,
 .nav2,
 #name {
-    font-family: Samarkan, bits indian calligra;
-}
+    font-family: Samarkan;
+} */
 
 header {
     display: inline-flex;
@@ -60,7 +57,6 @@ header {
 }
 
 h1 {
-    /* border-bottom:#927515 10px double; */
     text-decoration: double underline;
     color: #927515;
     text-align: center;
@@ -131,10 +127,10 @@ h2 {
     border-radius: 50%;
 }
 
-.sectiond{
+.sectiond {
     display: flex;
-    justify-content:center;
-    justify-content:space-between;
+    justify-content: center;
+    justify-content: space-between;
 }
 .bride4 {
     width: 170px;
@@ -142,12 +138,10 @@ h2 {
     border: #927515 10px solid;
     border-style: double;
     padding: 38px;
-   
 }
 
 p {
-    font-size: 2rem;
-    font-family: bits indian calligra;
+    font-size: 2rem;a;
     font-weight: bolder;
     margin-right: 50px;
 }
